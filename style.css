@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 25%;
+  border: 5.5px solid black;
+  background-color: aqua;
+  margin: 1.5rem;
+}
+
+.red {
+  background-color: #d95980;
+}
+
+.yellow {
+  background-color: #f99b45;
+}
+
+.green {
+  background-color: #63aac0;
+}
+
+.purple {
+  background-color: #819ff9;
+}
+
+/* change the color to white when flashed */
+.flash {
+  background-color: white;
+}
+
+.userflash {
+  background-color: green;
+}
